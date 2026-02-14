@@ -1,6 +1,7 @@
 {
   "name": "para-dana",
   "private": true,
+  "homepage": "https://marcoo90.github.io/Dana/",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
