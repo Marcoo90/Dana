@@ -29,7 +29,7 @@ const VideoGallery = ({ videos }) => {
                         >
                             <div className="aspect-[9/16] relative rounded-2xl overflow-hidden bg-romantic-cream">
                                 <video
-                                    src={video}
+                                    src={`${import.meta.env.BASE_URL}${video}`}
                                     className="w-full h-full object-cover"
                                     controls
                                     playsInline
