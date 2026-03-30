@@ -88,9 +88,22 @@ function App() {
                                 >
                                     Comenzar <ChevronDown size={20} />
                                 </motion.button>
+                                <div className="flex justify-center">
+                                    <video
+                                        controls
+                                        playsInline
+                                        preload="metadata"
+                                        className="w-[280px] h-[500px] object-cover rounded-3xl bg-black"
+                                    >
+                                        <source
+                                            src={`${import.meta.env.BASE_URL}videos/video8.mp4`}
+                                            type="video/mp4"
+                                        />
+                                        Tu navegador no soporta video HTML5.
+                                    </video>
+                                </div>
                             </motion.div>
                         </section>
-
                         {/* MESSAGE SECTION */}
                         <section id="message" className="py-32 px-4 bg-white/40">
                             <div className="max-w-3xl mx-auto text-center">
